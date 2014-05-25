@@ -1,0 +1,14 @@
+# mount point	fstype		device
+
+/sdcard		vfat		/dev/block/platform/sprd-sdhci.0/mmcblk0p1
+/system		yaffs2		system
+/cache		yaffs2		cache
+/data		yaffs2		userdata
+/internal_memory	yaffs2	intmemory
+/misc 		mtd 		misc
+/boot		mtd		boot
+/recovery	mtd		recovery
+/fixnv		yaffs2		fixnv		no-checkpoint,tags-ecc-off,no-rest-block
+/runtimenv		yaffs2		runtimenv		no-checkpoint,tags-ecc-off,no-rest-block
+/backupfixnv		yaffs2		backupfixnv		no-checkpoint,tags-ecc-off,no-rest-block
+/productinfo		yaffs2		productinfo		no-checkpoint,tags-ecc-off,no-rest-block
